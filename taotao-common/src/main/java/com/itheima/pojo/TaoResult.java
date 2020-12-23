@@ -1,12 +1,13 @@
 package com.itheima.pojo;
 
+import java.io.Serializable;
 import java.util.List;
 
 /*
  *  @创建时间:  2020/12/22 14:30
  *  @描述：    TODO
  */
-public class TaoResult<T> {
+public class TaoResult<T> implements Serializable {
 
     private long total; //总的记录数
     private List<T> rows; //当前这一页的数据集合。
