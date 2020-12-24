@@ -19,4 +19,12 @@ public interface ItemService {
      * @return 这一页的数据
      */
     TaoResult<Item> findByPage(Integer page , Integer rows);
+
+
+    /**
+     * 新增商品
+     * @param item  商品对象
+     * @param desc 商品的描述
+     */
+    void saveItem(Item item  , String desc);
 }
