@@ -20,12 +20,22 @@ public class ItemController {
 
     //http://localhost:8082/rest/item?page=1&rows=30
 
-    @RequestMapping("/rest/item")
+    //RestFull 设计风格，
+
+    @RequestMapping("/rest/item")   //get
     public TaoResult<Item> findByPage(int page , int rows){
         TaoResult<Item> taoResult = itemService.findByPage(page, rows);
 
         System.out.println("taoResult===" + taoResult);
-
         return taoResult;
+    }
+
+
+    @RequestMapping("/rest/addItem")  // post
+    public void addItem(Item item ,  String desc){
+
+        itemService.saveItem(item , desc);
+
+        System.out.println("新增商品成功：" + item);
     }
 }

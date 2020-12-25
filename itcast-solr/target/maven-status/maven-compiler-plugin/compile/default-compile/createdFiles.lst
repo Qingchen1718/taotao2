@@ -1,0 +1,6 @@
+com\itheima\service\ItemService.class
+com\itheima\pojo\Item.class
+com\itheima\pojo\BasePojo.class
+com\itheima\mapper\ItemMapper.class
+com\itheima\service\AA.class
+com\itheima\SolrApp.class

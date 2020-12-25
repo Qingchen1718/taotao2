@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../itcast-dubbo-comsumer/itcast-dubbo-comsumer.iml" filepath="$PROJECT_DIR$/../itcast-dubbo-comsumer/itcast-dubbo-comsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../itcast-dubbo-interface/itcast-dubbo-interface.iml" filepath="$PROJECT_DIR$/../itcast-dubbo-interface/itcast-dubbo-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/../itcast-dubbo-provider/itcast-dubbo-provider.iml" filepath="$PROJECT_DIR$/../itcast-dubbo-provider/itcast-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../itcast-solr/itcast-solr.iml" filepath="$PROJECT_DIR$/../itcast-solr/itcast-solr.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-common/taotao-common.iml" filepath="$PROJECT_DIR$/../taotao-common/taotao-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-manager/taotao-manager.iml" filepath="$PROJECT_DIR$/../taotao-manager/taotao-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-manager/taotao-manager-interface/taotao-manager-interface.iml" filepath="$PROJECT_DIR$/../taotao-manager/taotao-manager-interface/taotao-manager-interface.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/../taotao-manager/taotao-manager-service/taotao-manager-service.iml" filepath="$PROJECT_DIR$/../taotao-manager/taotao-manager-service/taotao-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/../taotao-manager-web/taotao-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taotao-parent/taotao-parent.iml" filepath="$PROJECT_DIR$/../taotao-parent/taotao-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../taotao-portal/taotao-portal.iml" filepath="$PROJECT_DIR$/../taotao-portal/taotao-portal.iml" />
     </modules>
   </component>
 </project>

@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/../itcast-dubbo-comsumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../itcast-dubbo-interface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../itcast-dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../itcast-solr/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../taotao-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../taotao-manager-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../taotao-manager/src/main/java" charset="UTF-8" />
@@ -14,6 +15,7 @@
     <file url="file://$PROJECT_DIR$/../taotao-manager/taotao-manager-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../taotao-parent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../taotao-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotao-portal/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
