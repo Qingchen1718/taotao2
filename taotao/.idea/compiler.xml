@@ -28,11 +28,13 @@
         <module name="taotao-search-service" />
         <module name="taotao-manager-interface" />
         <module name="taotao-manager-service" />
+        <module name="itcast-activemq" />
         <module name="taotao-search-interface" />
         <module name="taotao-manager-pojo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="itcast-activemq" target="1.8" />
       <module name="itcast-dubbo-comsumer" target="1.8" />
       <module name="itcast-dubbo-interface" target="1.8" />
       <module name="itcast-dubbo-provider" target="1.8" />
@@ -54,6 +56,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcast-activemq" options="-parameters" />
       <module name="itcast-dubbo-comsumer" options="-parameters" />
       <module name="itcast-dubbo-interface" options="-parameters" />
       <module name="itcast-dubbo-provider" options="-parameters" />

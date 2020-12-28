@@ -22,11 +22,12 @@ public class SearchController {
     private int rows = 16;
 
 
-    // http://search.taotao.com/search?q=apple
-    @RequestMapping("/search")
+    // http://search.taotao.com/search.html?q=apple
+    @RequestMapping("/search.html")
     public String search(Model model, @RequestParam("q") String query,
                          @RequestParam(value = "page", defaultValue = "1") Integer page){
 
+        System.out.println("search~!~!~!~");
 
         //直接调用service得到搜索的结果
         TaoResult<Item> taoResult = searchService.search(query, page, rows);
