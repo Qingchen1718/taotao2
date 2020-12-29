@@ -9,4 +9,6 @@ import com.itheima.pojo.ItemDesc;
 public interface ItemDescService {
 
     void saveItemDesc(ItemDesc itemDesc);
+
+    ItemDesc queryById (Long itemId);
 }

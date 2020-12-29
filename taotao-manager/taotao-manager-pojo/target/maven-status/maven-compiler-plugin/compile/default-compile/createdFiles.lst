@@ -2,3 +2,4 @@ com\itheima\pojo\Item.class
 com\itheima\pojo\BasePojo.class
 com\itheima\pojo\ItemCat.class
 com\itheima\pojo\ItemDesc.class
+com\itheima\pojo\User.class

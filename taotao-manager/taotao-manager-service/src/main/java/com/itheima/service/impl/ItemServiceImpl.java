@@ -81,4 +81,11 @@ public class ItemServiceImpl implements ItemService {
         //搜索系统得到商品的id之后，---> 根据id去查询mysql 得到商品数据------>构建索引，存到索引库中。
         jmsMessagingTemplate.convertAndSend("item", item.getId()+"");
     }
+
+    @Override
+    public Item queryById(Long itemId) {
+
+        return itemMapper.selectByPrimaryKey(itemId);
+
+    }
 }

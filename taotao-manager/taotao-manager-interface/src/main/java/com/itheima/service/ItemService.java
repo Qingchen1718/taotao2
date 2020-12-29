@@ -27,4 +27,12 @@ public interface ItemService {
      * @param desc 商品的描述
      */
     void saveItem(Item item  , String desc);
+
+
+    /**
+     * 根据商品id查询商品
+     * @param itemId
+     * @return
+     */
+    Item queryById(Long itemId);
 }
