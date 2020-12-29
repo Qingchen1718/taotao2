@@ -10,6 +10,7 @@ import com.itheima.service.ItemDescService;
 import com.itheima.service.ItemService;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsMessagingTemplate;
 
 import java.util.Date;
 
@@ -27,6 +28,10 @@ public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private ItemDescService itemDescService;
+
+
+    @Autowired
+    private JmsMessagingTemplate jmsMessagingTemplate;
 
     @Override
     public TaoResult<Item> findByPage(Integer page, Integer rows) {
@@ -70,6 +75,10 @@ public class ItemServiceImpl implements ItemService {
 
 
 
+        //----------------新增好商品之后，发送一个消息通知，告诉搜索系统，要更新索引----------
 
+        //只需要发送商品的id过去即可，
+        //搜索系统得到商品的id之后，---> 根据id去查询mysql 得到商品数据------>构建索引，存到索引库中。
+        jmsMessagingTemplate.convertAndSend("item", item.getId()+"");
     }
 }
